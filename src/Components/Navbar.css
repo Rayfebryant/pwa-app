@@ -1,0 +1,18 @@
+nav {
+    display: grid;
+    grid-template-columns: 3% 1fr 1fr 3%;
+    min-height: 10vh;
+    color: white;
+    align-items: center;
+}
+
+.back {
+    grid-column: 2/3;
+    height:20px;
+}
+
+.settings {
+    justify-self: end;
+    height: 20px;
+    transform: rotate(180deg);
+}
